@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">User Management</h1>
+        <div id="userList"></div>
+        <h2>Add User</h2>
+        <form id="addUserForm" class="mb-3">
+            <div class="form-group">
+                <input type="text" class="form-control" id="nom" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" id="age" placeholder="Age">
+            </div>
+            <button type="submit" class="btn btn-primary">Add User</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
